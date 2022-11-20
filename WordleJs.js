@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", () => {
             window.alert("Last chance")
         }
 
-        if(guessedWords.length === 6) {
+        if((guessedWords.length === 6) &&(!(currentWord===word))) {
             window.alert(`Sorry, there is no more chances! The word is ${word}.`)
         }
 
