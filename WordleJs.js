@@ -128,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     window.alert(`There is no numbers in the word \n${hint}`)
                 }
                 else if (containsNumbers(word) == true) {
-                    window.alert(`There is one or more numbersin the word \n${hint}.`)
+                    window.alert(`There is one or more numbers in the word \n${hint}.`)
                 }         
                 return;
             }
