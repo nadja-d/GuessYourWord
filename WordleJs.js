@@ -77,8 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
             window.alert(`Congratulations, you got the word! The word is ${word}.`);
         }
 
-        if(guessedWords.length === 5) {
-            window.alert("Last chance")
+        if((guessedWords.length === 5) &&(!(currentWord===word))) {
+            window.alert("Last chance!")
         }
 
         if((guessedWords.length === 6) &&(!(currentWord===word))) {
